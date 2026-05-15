@@ -1,5 +1,3 @@
-# War-Room-Briefs
-The Architect's Thoughts
 # War Room Briefs
 
 ### May 11, 2026
