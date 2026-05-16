@@ -3,35 +3,42 @@
     margin: 0; 
     padding: 10px; 
     background-color: transparent; 
+    font-family: sans-serif;
   }
   
-  /* This turns your text block into a Gold Card with White Text */
-  pre {
+  /* This creates a separate box for each entry */
+  .brief-card {
     background-color: #D3AF37; /* Gold */
-    color: #ffffff;            /* White Lettering */
-    padding: 20px;
-    border-radius: 10px;
-    font-family: sans-serif;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    line-height: 1.6;
-    margin: 0;
+    color: #ffffff;            /* White Text */
+    padding: 15px;
+    margin-bottom: 15px;      /* Gap between the boxes */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   }
 
-  strong {
+  .brief-card strong {
     display: block;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
     border-bottom: 1px solid rgba(255,255,255,0.4);
-    margin-bottom: 8px;
     padding-bottom: 4px;
+    margin-bottom: 6px; /* Tightens the gap to the paragraph */
   }
-</style>
 
+  .brief-card p {
+    margin: 0;          /* Removes extra space around paragraph */
+    line-height: 1.4;
+    font-size: 0.95rem;
+  }
+
+<div class="brief-card">
 <pre style="word-wrap: break-word; white-space: pre-wrap; font-family: sans-serif;">
 <strong>May 11, 2026</strong>
 Just finished the 1-Andro analysis. The data on lean muscle retention is surgical.
+</div>
     
+<div class="brief-card">
 <strong>May 10, 2026</strong>
 Watching the Packers rookie camp footage. Brandon Cisse’s footwork is elite.
+</div>
 </pre>
